@@ -9,7 +9,7 @@ import utilities.Driver;
 
 public class C01_AlisverisTesti {
 
-    @Test
+    @Test (groups = "E2E")
     public void AlisverisTesti(){
 
 

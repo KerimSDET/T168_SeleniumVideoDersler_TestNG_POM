@@ -43,7 +43,7 @@ public class C02_DinamikNegativeLoginTesti {
         Driver.quitDriver();
     }
 
-    @Test
+    @Test (groups = {"E2E","smoke","regression"})
     public void gecersizEmailGecersizPasswordTesti(){
         Driver.getDriver().get(ConfigReader.getProperty("toUrl"));
         testOtomasyonuPage = new TestOtomasyonuPage();

@@ -13,15 +13,19 @@ public class FacebookPage {
 
     }
 
-    @FindBy (xpath = "(//span[.='Allow all cookies'])[3]")
-    public WebElement allowAllCookies;
+//    @FindBy (xpath = "(//span[.='Allow all cookies'])[3]")
+//    public WebElement allowAllCookies;
 
-    @FindBy (xpath = "//*[@id='email']")
+    @FindBy(xpath = "//*[@name='email']")
     public WebElement loginEmailBox;
 
-    @FindBy (xpath = "//*[@id='pass']")
+    @FindBy(xpath = "//*[@type='password']")
     public WebElement loginPassBox;
 
-    @FindBy (xpath = "//button[@type='submit']")
+    @FindBy (xpath = "//*[@role='button']")
     public WebElement loginSubmitButton;
+
+
+
+
 }

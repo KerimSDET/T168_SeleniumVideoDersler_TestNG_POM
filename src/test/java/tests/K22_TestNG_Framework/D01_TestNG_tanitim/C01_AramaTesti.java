@@ -12,6 +12,7 @@ public class C01_AramaTesti {
 
     @Test
     public void test01() throws InterruptedException {
+
         //bir test class oluştur ilgil ayarları yap
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();

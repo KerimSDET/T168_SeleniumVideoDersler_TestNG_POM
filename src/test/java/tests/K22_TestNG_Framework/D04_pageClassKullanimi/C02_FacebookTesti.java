@@ -36,7 +36,7 @@ public class C02_FacebookTesti {
 
         Assert.assertTrue(facebookPage.loginEmailBox.isDisplayed());
 
-        Driver.getDriver();
+        Driver.quitDriver();
 
     }
 
