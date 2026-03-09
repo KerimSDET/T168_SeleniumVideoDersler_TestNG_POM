@@ -47,7 +47,7 @@ public class C01_PageClassKullanimi {
         testOtomasyonuPage.foundElementsList.get(0).click();
 
 
-        //urun isminde cs olmadan phone oldugunu test et
+        //urun isminde cS olmadan phone oldugunu test et
 
         String expProductNameText = "phone";
         String actProductName = testOtomasyonuPage.firstItemNameTextElement.getText().toLowerCase();

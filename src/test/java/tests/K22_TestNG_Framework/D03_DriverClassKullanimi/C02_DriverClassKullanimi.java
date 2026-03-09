@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.Driver;
 
-public class C02_DeriverClassKullanimi {
+public class C02_DriverClassKullanimi {
 
     // uc farkli test methodu olusturun
     // testotomasyonu, wisequarter ve bestbuy sitelerine gidip
