@@ -60,10 +60,10 @@ public class C01_CokluAssertion {
         testOtomasyonuPage.foundElementsList.get(0).click();
 
         // urun isminde case sensitive olmadan aranacak kelime bulundugunu test edin
-        String expectedIsımIcerik = ConfigReader.getProperty("toAranacakKelime");
+        String expectedIsimIcerik = ConfigReader.getProperty("toAranacakKelime");
         String actualUrunIsim = testOtomasyonuPage.firstItemNameTextElement.getText().toLowerCase();
 
-        Assert.assertTrue(actualUrunIsim.contains(expectedIsımIcerik));
+        Assert.assertTrue(actualUrunIsim.contains(expectedIsimIcerik));
 
 
         // 5- sayfayi kapatin

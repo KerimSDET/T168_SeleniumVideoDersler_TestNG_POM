@@ -28,9 +28,9 @@ public class Driver {
         if (driver == null){
 
             switch (browser) {
-                case "chrome":
-                    driver = new ChromeDriver();
-                    break;
+//                case "chrome":
+//                    driver = new ChromeDriver();
+//                    break;
                 case "firefox":
                     driver = new FirefoxDriver();
                     break;
@@ -43,6 +43,8 @@ public class Driver {
                 case "edge":
                     driver = new EdgeDriver();
                     break;
+                default:
+                    driver = new ChromeDriver();
 
             }
 
