@@ -8,7 +8,7 @@ import utilities.Driver;
 public class C04_PositiveLoginTesti {
 
     @Test (groups = "E2E")
-    public void c04_PositiveLoginTesti() {
+    public void C04_PositiveLoginTesti() {
 
         // 1- https://www.testotomasyonu.com/ anasayfasina gidin
         Driver.getDriver().get("https://www.testotomasyonu.com/");
