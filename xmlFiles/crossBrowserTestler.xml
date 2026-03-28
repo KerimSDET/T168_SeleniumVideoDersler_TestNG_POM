@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+
+
+  K27 CrossBrowserTestler package'indaki
+  3 Class'i sirali olarak
+  hem chrome, hem de firefox ile çalıştırım.
+
+-->
+
+<suite name="CrossBrowser Testler">
+    <test name="Chrome ile çalışacak class'lar">
+        <parameter name="kullanilacakBrowser" value="chrome"></parameter>
+        
+        <packages>
+            
+            <package name="tests.K27_CrossBrowserTestler"></package>
+            
+        </packages>
+        
+    </test>
+
+    <test name="Firefox ile çalışacak class'lar">
+        <parameter name="kullanilacakBrowser" value="firefox"></parameter>
+
+        <packages>
+
+            <package name="tests.K27_CrossBrowserTestler"></package>
+
+        </packages>
+
+    </test>
+
+
+
+    
+</suite>
